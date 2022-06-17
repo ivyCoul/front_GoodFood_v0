@@ -1,0 +1,380 @@
+            /* 
+    Author:;
+    Theme: Good Food;
+    version: ;
+*/
+            /* CSS for All */
+            
+            * {
+                margin: 0 0;
+                padding: 0 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            body {
+                height: 100%;
+                width: 100%;
+            }
+            
+            .container {
+                width: 80%;
+                margin: 0 auto;
+                padding: 1%;
+            }
+            /* logo + autres images*/
+            
+            .img-responsive {
+                width: 100%;
+            }
+            
+            .img-curve {
+                border-radius: 15px;
+            }
+            /*En tete - menu*/
+            
+            .text-right {
+                text-align: right;
+            }
+            /* Barre  de recherche*/
+            
+            .text-center {
+                text-align: center;
+            }
+            /*En tete - menu*/
+            
+            .text-left {
+                text-align: left;
+            }
+            
+            .text-white {
+                color: white;
+            }
+            
+            .clearfix {
+                clear: both;
+                float: none;
+            }
+            
+            a {
+                color: #f14b2c;
+                text-decoration: none;
+            }
+            
+            a:hover {
+                color: #f14b2c;
+            }
+            
+            .btn {
+                padding: 1%;
+                border: none;
+                font-size: 1rem;
+                border-radius: 5px;
+            }
+            
+            .btn-primary {
+                background-color: #f14b2c;
+                color: white;
+                cursor: pointer;
+            }
+            
+            .btn-primary:hover {
+                color: white;
+                background-color: #f14b2c;
+            }
+            
+            h2 {
+                color: #2f3542;
+                font-size: 2rem;
+                margin-bottom: 2%;
+            }
+            
+            h3 {
+                font-size: 1.5rem;
+            }
+            
+            .float-container {
+                position: relative;
+            }
+            
+            .float-text {
+                position: absolute;
+                bottom: 50px;
+                left: 40%;
+            }
+            
+            fieldset {
+                border: 1px solid white;
+                margin: 5%;
+                padding: 3%;
+                border-radius: 5px;
+            }
+            /* CSSS for navbar section */
+            
+            .logo {
+                width: 10%;
+                float: left;
+            }
+            
+            .menu {
+                line-height: 60px;
+            }
+            
+            .menu ul {
+                list-style-type: none;
+            }
+            
+            .menu ul li {
+                display: inline;
+                padding: 1%;
+                font-weight: bold;
+            }
+            /* CSS for Food SEarch Section */
+            
+            .food-search {
+                background-image: url(../images/bg.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                padding: 7% 0;
+            }
+            
+            .food-search input[type="search"] {
+                width: 50%;
+                padding: 1%;
+                font-size: 1rem;
+                border: none;
+                border-radius: 5px;
+            }
+            /* CSS for Categories */
+            
+            .categories {
+                padding: 4% 0;
+            }
+            
+            .box-3 {
+                width: 28%;
+                float: left;
+                margin: 2%;
+            }
+            /* CSS for Food Menu */
+            
+            .food-menu {
+                background-color: #ececec;
+                padding: 4% 0;
+            }
+            
+            .food-menu-box {
+                width: 43%;
+                margin: 1%;
+                padding: 2%;
+                float: left;
+                background-color: white;
+                border-radius: 15px;
+            }
+            
+            .food-menu-img {
+                width: 20%;
+                float: left;
+            }
+            
+            .food-menu-desc {
+                width: 70%;
+                float: left;
+                margin-left: 8%;
+            }
+            
+            .food-price {
+                font-size: 1.2rem;
+                margin: 2% 0;
+            }
+            
+            .food-detail {
+                font-size: 1rem;
+                color: #747d8c;
+            }
+            /* CSS for Social */
+            
+            .social ul {
+                list-style-type: none;
+            }
+            
+            .social ul li {
+                display: inline;
+                padding: 1%;
+            }
+            /* for Order Section */
+            
+            .order {
+                width: 50%;
+                margin: 0 auto;
+            }
+            /*********************************my add***************************************/
+            
+            .tex-carte-geo {
+                text-align: center;
+            }
+            
+            .footer {
+                display: block;
+                background-color: #f14b2c;
+                height: 185px;
+                bottom: auto;
+            }
+            
+            .img-responsive_footer {
+                width: 5%;
+                height: 5%;
+                margin-right: auto;
+                margin-left: auto;
+                border-radius: 5px;
+            }
+            
+            .footer .text-footer-center {
+                text-align: center;
+                display: inline-block;
+            }
+            
+            .footer li a {
+                color: whitesmoke;
+            }
+            
+            .footer .text-footer-center p a {
+                color: whitesmoke;
+            }
+            
+            .map-geo {
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+            }
+            /* css page connexion*/
+            
+            #container {
+                width: 550px;
+                margin: 0 auto;
+                margin-top: 2%;
+                margin-bottom: 2%;
+            }
+            
+            #inscripton {
+                font-family: 'Courier New', Courier, monospace;
+                text-decoration: underline;
+                color: whitesmoke;
+            }
+            
+            .text-cpright-center {
+                color: whitesmoke;
+                text-align: center;
+            }
+            /* Bordered form */
+            
+            form {
+                width: 100%;
+                padding: 5px;
+                border: 1px solid #f1f1f1;
+                background: #fff;
+                box-shadow: 0 0 20px 0 rgba(209, 208, 208, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+            }
+            
+            #container h1 {
+                width: 40%;
+                margin: 0 auto;
+                padding-bottom: 25px;
+                color: #f14b2c;
+            }
+            /* Full-width inputs */
+            
+            input[type=text],
+            input[type=password] {
+                width: 100%;
+                padding: 15px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
+            /* Set a style for all buttons */
+            
+            input[type=submit] {
+                background-color: #53af57;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: 1px solid;
+                cursor: pointer;
+                width: 100%;
+            }
+            
+            input[type=submit]:hover {
+                background-color: white;
+                color: #53af57;
+                border: 1px solid #53af57;
+            }
+            /*.img-center {
+    width: 50%;
+}
+
+
+*/
+            
+            .input-responsive {
+                width: 96%;
+                padding: 1%;
+                margin-bottom: 3%;
+                border: none;
+                border-radius: 5px;
+                font-size: 1rem;
+            }
+            
+            .order-label {
+                margin-bottom: 1%;
+                font-weight: bold;
+            }
+            /* CSS for Mobile Size or Smaller Screen */
+            
+            @media only screen and (max-width:768px) {
+                .logo {
+                    width: 80%;
+                    float: none;
+                    margin: 1% auto;
+                }
+                .menu ul {
+                    text-align: center;
+                }
+                .food-search input[type="search"] {
+                    width: 90%;
+                    padding: 2%;
+                    margin-bottom: 3%;
+                }
+                .btn {
+                    width: 91%;
+                    padding: 2%;
+                }
+                .food-search {
+                    padding: 10% 0;
+                }
+                .categories {
+                    padding: 20% 0;
+                }
+                h2 {
+                    margin-bottom: 10%;
+                }
+                .box-3 {
+                    width: 100%;
+                    margin: 4% auto;
+                }
+                .food-menu {
+                    padding: 20% 0;
+                }
+                .food-menu-box {
+                    width: 90%;
+                    padding: 5%;
+                    margin-bottom: 5%;
+                }
+                .social {
+                    padding: 5% 0;
+                }
+                .order {
+                    width: 100%;
+                }
+            }

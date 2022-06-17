@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{%block  content%}
+{% comment %} <h1> Mes projets</h1> {% endcomment %}
+{% comment %} <ul> {% endcomment %}
+
+    <!-- CAtegories Section Starts Here -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="text-center">Nos plats</h2>
+            <div class="row">
+                <a href="restaurants.html">
+                    {%for p in projet%}
+                        <a href="#">
+                            <div class="col box-3 float-container">
+                                <img src="https://fakeimg.pl/50/" alt="Pates" class="img-responsive img-curve">
+                                <h3 class="float-text text-white">"{{p.titre}}"</h3>
+                            </div>
+                        </a>
+                    {%endfor%}
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- End Nos plat Section  -->
+
+    <div class="clearfix "></div>
+
+    <!-- Card Section  -->
+    <section class="carte-geo">
+        <h2 class="text-carte-geo text-center">Carte</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10122.08740971039!2d3.0632228!3d50.6359987!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x615366763270376d!2sBrasserie%20La%20Chicor%C3%A9e!5e0!3m2!1sfr!2sfr!4v1650298245756!5m2!1sfr!2sfr" class="carte-map"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+    <!-- Card Section  -->
+
+{%endblock%}

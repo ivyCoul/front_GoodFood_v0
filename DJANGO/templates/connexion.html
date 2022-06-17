@@ -1,0 +1,30 @@
+{% extends 'base2.html' %}
+{%block  content%}
+{% comment %} <h1> Mes projets</h1> {% endcomment %}
+{% comment %} <ul> {% endcomment %}
+
+    <!-- Form Section  -->
+    <section id="container" class="form-connexion text-center">
+        <form action="" method="POST">
+            <h1 class="connect text-center">Connexion</h1>
+
+            <label><b>Nom d'utilisateur:</b></label>
+            <input type="text" placeholder="Entrer votre nom d'utilisateur" name="username" required>
+
+            <label><b>Mot de passe:</b></label>
+            <input type="password" placeholder="Entrez votre mot de passe" name="password" required>
+
+            <input type="checkbox" value="remember-me"> Se souvenir de moi
+
+            <input type="submit" id='submit' value='Se connecter'>
+            <div id="inscription">
+                <a href="inscription "> Inscription </a>
+            </div>
+        </form>
+
+    </section>
+    <!-- End form Section  -->
+
+    <div class="clearfix "></div>
+
+{%endblock%}

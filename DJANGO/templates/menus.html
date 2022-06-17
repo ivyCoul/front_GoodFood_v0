@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{%block  content%}
+{% comment %} <h1> Mes projets</h1> {% endcomment %}
+{% comment %} <ul> {% endcomment %}
+
+    <!-- CAtegories Section Starts Here -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="text-center">Nos menus</h2>
+            <div class="row">
+                <a href="/menus">
+                    {% for m in menus %}
+                        <a href="#">
+                            <div class="col box-3 float-container">
+                                <img src="{{m.image_url}}" alt="Pates" class="img-responsive img-curve">
+                                <h3 class="float-text text-white">"{{m.titre}}"</h3>
+                            </div>
+                        </a>
+                    {%endfor%}
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- End Nos plat Section  -->
+
+    <div class="clearfix "></div>
+
+{%endblock%}
